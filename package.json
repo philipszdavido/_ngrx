@@ -1,0 +1,20 @@
+{
+  "name": "ngrx",
+  "version": "1.0.0",
+  "description": "my own implementation of ngrx (RxJS-powered state management library for Angular)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipszdavido/_ngrx.git"
+  },
+  "keywords": [],
+  "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipszdavido/_ngrx/issues"
+  },
+  "homepage": "https://github.com/philipszdavido/_ngrx#readme"
+}
