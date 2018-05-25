@@ -9,7 +9,7 @@ function reduceState(stateActionPair = { state: undefined }, [action, reducer]) 
     return { state: reducer(state, action), action }
 }
 
-/** This function combiners all the reducers into a single reducer function */
+/** This function combines all the reducers into a single reducer function */
 function combineReducers(reducer, initialState = {}) {
     return function combination(state = initialState, action) {
         return reducer(state, action)
